@@ -25,7 +25,7 @@ stpw = set(stopwords.words('portuguese')) # seta var de stopwords
 
 col_names = ['DESCRICAO_DI','NCM'] #colunas da planilha
 
-pima = pd.read_csv("DFS/91_1.csv", header=None, names=col_names, delimiter=';')#ler planilha
+pima = pd.read_csv("91_1.csv", header=None, names=col_names, delimiter=';')#ler planilha
 
 pima.DESCRICAO_DI = pima.DESCRICAO_DI.str.lower()#tranforma a planilha em minúsculo
 
