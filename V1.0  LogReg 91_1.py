@@ -61,7 +61,7 @@ X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.20,random_state=0
 #define algoritmo de machine learning
 logreg = LogisticRegression(C=4.7)
 
-#joga dados no algoritmo faz repetição os fit a porra toda
+#joga dados no algoritmo faz repetição e os fit
 logreg.fit(X_train,y_train)
 
 
